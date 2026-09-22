@@ -46,8 +46,14 @@ def get_rag_components(chunks):
     )
 
     prompt = ChatPromptTemplate.from_template("""
-Answer the question using only the context below.
-If the answer is not in the context, say you don't know.
+You are an assistant answering questions about the user's documents.
+
+Use the following context to answer the question.
+
+If the answer cannot be found in the context, say:
+"I couldn't find the answer in the provided documents."
+
+Do not make up information.
 
 Context:
 {context}
