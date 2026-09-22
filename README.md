@@ -257,4 +257,4 @@ Working through this project provides practical experience with:
 
 ## 20. License
 
-This project is available under the [MIT License](LICENSE) (or choose an appropriate license for your repository).
+This project is for educational and portfolio purposes.
