@@ -1,5 +1,9 @@
 # Chat with Multiple PDFs : RAG-based Document Q&A Application
 
+Live demo: https://multidoc-rag-chatbot-grok.streamlit.app/
+
+> Warning: This app may not work reliably in every environment because it depends on external services, local model downloads, and runtime constraints such as memory, package compatibility, and network access.
+
 ## 1. Overview
 
 This project is a web-based document question-and-answering application built with **Streamlit**, **LangChain**, and **Groq**. It allows users to upload one or multiple PDF files, automatically process and index their content, and ask natural language questions about the uploaded material through an interactive chat interface.
